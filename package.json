@@ -1,0 +1,27 @@
+{
+  "name": "angular-and-tests",
+  "version": "0.0.1",
+  "dependencies": {},
+  "scripts": {
+    "test": "gulp test",
+    "postinstall": "bower install"
+  },
+  //All the dependencies are fixed to prevent the build break during the conference
+  "devDependencies": {
+    "browser-sync": "2.6.4",
+    "gulp": "3.8.11",
+    "gulp-concat": "2.5.2",
+    "gulp-connect": "2.2.0",
+    "gulp-jshint": "1.10.0",
+    "gulp-less": "3.0.0",
+    "gulp-livereload": "3.8.0",
+    "gulp-ng-annotate": "0.5.2",
+    "gulp-replace": "0.5.3",
+    "gulp-rimraf": "0.1.0",
+    "gulp-uglify": "1.2.0",
+    "gulp-util": "3.0.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
